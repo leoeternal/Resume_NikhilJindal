@@ -1,0 +1,159 @@
+
+.container{
+    max-width: 1600px;
+    min-width: 300px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.header{
+    height: auto;
+    background: linear-gradient(to right,#9cc2ff,#051a3b);
+    margin: 2px;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header:hover{
+    background: linear-gradient(to right,#6d78a1,#161b2e);
+}
+
+.picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("me2.jpg");
+    background-size: cover;
+}
+
+.title{
+    width: 500px;
+    height: auto;
+}
+
+.title p{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 1.8;
+    text-indent: 50px;  
+}
+
+.details{
+    width: 350px;
+    height: 200px;
+}
+
+.details p{
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 800;
+}
+
+.main-body{
+    height: auto;
+    margin: 2px;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.left-body{
+    width: 450px;
+    height: 700px;
+}
+
+.left-body:hover{
+    background-color: #f7f7f7;
+}
+
+.right-body{
+    width: 700px;
+    height: 700px;
+    display: flex-column;
+}
+
+.right-body:hover{
+    background-color: #fafafa;
+}
+
+.right-body p{
+    font-size: 25px;
+    font-weight: 800;
+    color:#1a53bd;
+}
+
+.projects-info{
+    width: 99%;
+    height: 200px;
+    margin: 2px;
+    padding: 2px;
+    background-color: #fafafa;
+    border-radius: 30px;
+}
+
+.projects-info dt{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.left-body p{
+    font-size: 25px;
+    font-weight: 800;
+    color:#1a53bd;
+}
+
+.left-body ul li p{
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    color:black;
+}
+
+.left-body-sub-container{
+    height: 605px;
+    margin: 2px;
+    display: flex;
+    padding: 2px;
+}
+
+.left-body-skills{
+    width: 40%;
+    height: 600px;
+}
+
+.left-body-rating{
+    width: 59%;
+    height: 600px;
+}
+
+.left-body-rating p{
+    font-size: 17px;
+    font-weight: 800;
+    color:black;
+}
+
+.footer{
+    height: auto;
+    margin: 2px;
+}
+
+.footer:hover{
+        background-color: #fafafa;
+}
+
+.footer h1{
+    color: #1a53bd;;
+}
+
+table{
+    margin: 5px;
+    border-spacing: 0;
+}
+table td,th{
+    padding: 10px;
+}
